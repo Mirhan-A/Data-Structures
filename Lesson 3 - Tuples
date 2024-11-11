@@ -1,0 +1,16 @@
+student_info = ("Wayne", "21", "Computer Science", "3.8")
+
+print ("Name:",(student_info[0]))
+print ("Age:",(student_info[1]))
+print ("Major:",(student_info[2]))
+print ("GPA:",(student_info[3]))
+
+
+
+updated_student_info = (student_info[0], student_info[1], "Data Science",student_info[3])
+
+
+print ("Name:",(updated_student_info[0]))
+print ("Age:",(updated_student_info[1]))
+print ("Major:",(updated_student_info[2]))
+print ("GPA:",(updated_student_info[3]))
