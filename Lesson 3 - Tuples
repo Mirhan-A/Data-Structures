@@ -14,3 +14,25 @@ print ("Name:",(updated_student_info[0]))
 print ("Age:",(updated_student_info[1]))
 print ("Major:",(updated_student_info[2]))
 print ("GPA:",(updated_student_info[3]))
+------
+
+scores = (88,76,90,85,93,76,90,88,92)
+
+high_score = max((88,76,90,85,93,76,90,88,92))
+print (high_score)
+
+low_score = min((88,76,90,85,93,76,90,88,92))
+print(low_score)
+
+how_many_90s = ((88,76,90,85,93,76,90,88,92))
+x = how_many_90s.count(90)
+print(x)
+
+average = sum((88,76,90,85,93,76,90,88,92)) / len((88,76,90,85,93,76,90,88,92))
+print(average)
+
+unique_scores = sorted(set(scores), reverse = True)
+top_3_scores = unique_scores[:3]
+print("Top 3 unique scores: ",top_3_scores )
+
+
