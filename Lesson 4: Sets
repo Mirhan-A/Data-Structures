@@ -1,0 +1,22 @@
+colors = {"Red", "Blue", "Green", "Yellow"}
+print(colors)
+
+colors.add("Purple")
+colors.remove("Green")
+print(colors)
+
+primary_colors = {"Red","Blue","Yellow"}
+
+print (colors - primary_colors)
+print(colors & primary_colors)
+
+
+if "Orange" in colors and primary_colors: 
+    print("Orange is in your paint palette. ")
+else: 
+    print("Orange is not in your paint palette. ")
+
+
+
+
+
