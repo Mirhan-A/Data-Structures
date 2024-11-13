@@ -1,0 +1,20 @@
+fav_colors = {'Ivan': 'Red', 'Kabi': 'Blue', 'Michelle':'Green'}
+print(fav_colors)
+
+fav_colors['David'] = 'Yellow'
+
+fav_colors['Kabi'] = 'Purple'
+
+print(fav_colors)
+
+del fav_colors['David']
+
+print(fav_colors)
+
+
+if 'Michelle' in fav_colors: 
+    print("She was the 1st place winner!")
+else: 
+    print("She didn't place first.")
+
+
